@@ -17,4 +17,17 @@ public class AddressbookData {
 		this.name = addressbookDTO.name;
 		this.phNumber = addressbookDTO.phNumber;
 	}
+
+	public void setPersonId(int i) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void setPhNumber(String phNumber2) {
+
+	}
+
+	public void setName(String name) {
+
+	}
 }
