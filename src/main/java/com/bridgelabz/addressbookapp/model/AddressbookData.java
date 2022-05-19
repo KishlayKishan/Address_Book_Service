@@ -2,11 +2,10 @@ package com.bridgelabz.addressbookapp.model;
 
 import com.bridgelabz.addressbookapp.dto.AddressbookDTO;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
+
 public class AddressbookData {
 	private int personId;
 	private String name;
@@ -16,18 +15,5 @@ public class AddressbookData {
 		this.personId = personId;
 		this.name = addressbookDTO.name;
 		this.phNumber = addressbookDTO.phNumber;
-	}
-
-	public void setPersonId(int i) {
-		// TODO Auto-generated method stub
-
-	}
-
-	public void setPhNumber(String phNumber2) {
-
-	}
-
-	public void setName(String name) {
-
 	}
 }
